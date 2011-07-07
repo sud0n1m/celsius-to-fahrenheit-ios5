@@ -23,11 +23,11 @@
 		581B093313C5346000D345EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		581B093513C5346000D345EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		581B093713C5346000D345EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		581B093B13C5346000D345EB /* Converter2-Info.plist */ = {isa = PBXFileReference; path = "Converter2-Info.plist"; sourceTree = "<group>"; };
+		581B093B13C5346000D345EB /* Converter2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Converter2-Info.plist"; sourceTree = "<group>"; };
 		581B093D13C5346000D345EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		581B093F13C5346000D345EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		581B094113C5346000D345EB /* Converter2-Prefix.pch */ = {isa = PBXFileReference; path = "Converter2-Prefix.pch"; sourceTree = "<group>"; };
-		581B094213C5346000D345EB /* Converter2AppDelegate.h */ = {isa = PBXFileReference; path = Converter2AppDelegate.h; sourceTree = "<group>"; };
+		581B094113C5346000D345EB /* Converter2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Converter2-Prefix.pch"; sourceTree = "<group>"; };
+		581B094213C5346000D345EB /* Converter2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Converter2AppDelegate.h; sourceTree = "<group>"; };
 		581B094313C5346000D345EB /* Converter2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Converter2AppDelegate.m; sourceTree = "<group>"; };
 		581B094613C5346000D345EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		581B094813C5346000D345EB /* Converter2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Converter2ViewController.h; sourceTree = "<group>"; };

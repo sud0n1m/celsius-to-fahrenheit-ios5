@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Converter2ViewController : UIViewController
+@interface Converter2ViewController : UIViewController {
+    UILabel *myLabel;
+    IBOutlet UITextField *myInput;
+}
+ 
+@property (nonatomic, strong) IBOutlet UILabel *myLabel;
+- (IBAction)doSomething:(id)sender;
 
 @end
+                    

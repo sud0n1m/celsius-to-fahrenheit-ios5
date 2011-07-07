@@ -9,6 +9,7 @@
 #import "Converter2ViewController.h"
 
 @implementation Converter2ViewController
+@synthesize myLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +27,8 @@
 
 - (void)viewDidUnload
 {
+    [self setMyLabel:nil];
+    myInput = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +60,16 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-@end
+- (IBAction)doSomething:(id)sender {
+    if (myInput.text == NULL) {
+        myLabel.text = @"129";
+    }
+    else {
+        NSInteger myCelsius, myFahrenheit; 
+        myCelsius = myInput.text.integerValue;
+        myFahrenheit = (myCelsius / (5.0/9.0)) + 32;
+        myLabel.text = [NSString stringWithFormat:@"%d", myFahrenheit];
+
+    }
+}
+    @end
