@@ -61,8 +61,8 @@
 }
 
 - (IBAction)doSomething:(id)sender {
-    if (myInput.text == NULL) {
-        myLabel.text = @"129";
+    if ([myInput.text length] == 0) {
+        myLabel.text = @"---";
     }
     else {
         NSInteger myCelsius, myFahrenheit; 
