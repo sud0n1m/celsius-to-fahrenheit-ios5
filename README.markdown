@@ -4,4 +4,4 @@ Hello world, this is my first iOS application. Nothing too exciting here, I just
 
 I built it in Xcode 4.2 for iOS5 and it almost definitely won't work on earlier versions of Xcode but probably will work on iOS4.
 
-![Screenshot](https://github.com/sud0n1m/converter2/raw/master/Screenshot.jpg)
+![Screenshot](https://github.com/sud0n1m/celsius-to-fahrenheit-ios5/raw/master/Screenshot.jpg)
